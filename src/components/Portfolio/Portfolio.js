@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import IMG from '../../assets/photo2.jpg';
+import IMG from '../../assets/sunglass.jpg';
 
 const data = [
     {

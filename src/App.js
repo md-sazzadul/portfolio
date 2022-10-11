@@ -17,9 +17,9 @@ function App() {
       <Nav></Nav>
       <About></About>
       <Experience></Experience>
-      <Services></Services>
       <Portfolio></Portfolio>
-      <Testimonials></Testimonials>
+      {/* <Services></Services> */}
+      {/* <Testimonials></Testimonials> */}
       <Contact></Contact>
       <Footer></Footer>
     </div>

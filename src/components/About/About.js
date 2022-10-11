@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import ME from '../../assets/photo2.jpg';
+import ME from '../../assets/sunglass.jpg';
 import {FaAward, FaUsers, FaFolder} from 'react-icons/fa';
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
                 </div>
 
                 <div className="about__content">
-                    <div className="about__cards">
+                    {/* <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon'></FaAward>
                             <h5>Experience</h5>
@@ -35,10 +35,10 @@ const About = () => {
                             <h5>Projects</h5>
                             <small>80+ Completed</small>
                         </article>
-                    </div>
+                    </div> */}
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut temporibus voluptate sit ea natus? Sed iure doloribus, facilis nemo similique vero quos! Animi quisquam voluptatem, ratione itaque ducimus tenetur magni?
+                        Hey, my name is Sazzadul Islam & I am known by my nickname Sazzad. I'm a front-end developer from Bangladesh. I'm always curious to learn more when it comes to new technologies & creative coding.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
