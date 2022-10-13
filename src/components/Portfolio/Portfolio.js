@@ -1,49 +1,54 @@
 import React from 'react';
 import './Portfolio.css';
-import IMG from '../../assets/sunglass.jpg';
+import IMG1 from '../../assets/ema-john.PNG';
+import IMG2 from '../../assets/to-do-list.PNG';
+import IMG3 from '../../assets/influencer-gear.PNG';
+import IMG4 from '../../assets/leader-board.PNG';
+import IMG5 from '../../assets/cash-book.PNG';
+import IMG6 from '../../assets/panda-commerce.PNG';
 
 const data = [
     {
         id: 1,
-        image: IMG,
-        title: 'This is a Portfolio Item Title',
+        image: IMG1,
+        title: 'Simple React SPA With Simple E-commerce (Ongoing)',
         github: 'https://github.com',
-        demo: 'https://github.com'
+        demo: 'https://ema-john-sazzad15.netlify.app/'
     },
     {
         id: 2,
-        image: IMG,
-        title: 'This is a Portfolio Item Title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        image: IMG2,
+        title: 'To-Do List',
+        github: 'https://github.com/md-sazzadul/to-do-list',
+        demo: 'https://to-do-list-sazzad15.netlify.app/'
     },
     {
         id: 3,
-        image: IMG,
-        title: 'This is a Portfolio Item Title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        image: IMG3,
+        title: 'Influencer Gear',
+        github: 'https://github.com/md-sazzadul/influencer-gear',
+        demo: 'https://influencer-gear-sazzad15.netlify.app/'
     },
     {
         id: 4,
-        image: IMG,
-        title: 'This is a Portfolio Item Title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        image: IMG4,
+        title: 'Leader Board CSS3',
+        github: 'https://github.com/md-sazzadul/leader-board-css3',
+        demo: 'https://leader-board-sazzad15.netlify.app/'
     },
     {
         id: 5,
-        image: IMG,
-        title: 'This is a Portfolio Item Title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        image: IMG5,
+        title: 'Simple Interactive Bank Website',
+        github: 'https://github.com/md-sazzadul/cash-book',
+        demo: 'https://cash-book-sazzad15.netlify.app/'
     },
     {
         id: 6,
-        image: IMG,
-        title: 'This is a Portfolio Item Title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        image: IMG6,
+        title: 'Simple E-commerce Landing Page Using Bootstrap',
+        github: 'https://github.com/md-sazzadul/panda-commerce-bootstrap',
+        demo: 'https://panda-commerce-sazzad15.netlify.app/#'
     }
 ]
 
