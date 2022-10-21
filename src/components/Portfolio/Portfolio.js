@@ -1,7 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
 import IMG1 from '../../assets/ema-john.PNG';
-import IMG2 from '../../assets/to-do-list.PNG';
+import IMG2 from '../../assets/crud-reactjs.PNG';
 import IMG3 from '../../assets/influencer-gear.PNG';
 import IMG4 from '../../assets/leader-board.PNG';
 import IMG5 from '../../assets/cash-book.PNG';
@@ -11,16 +11,16 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Simple React SPA With Simple E-commerce (Ongoing)',
+        title: 'React SPA With Simple E-commerce (Ongoing)',
         github: 'https://github.com',
         demo: 'https://ema-john-sazzad15.netlify.app/'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'To-Do List',
-        github: 'https://github.com/md-sazzadul/to-do-list',
-        demo: 'https://to-do-list-sazzad15.netlify.app/'
+        title: 'CRUD Application Using React',
+        github: 'https://github.com/md-sazzadul/crud-reactjs',
+        demo: 'https://crud-application-sazzad15.netlify.app/'
     },
     {
         id: 3,

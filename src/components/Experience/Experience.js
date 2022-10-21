@@ -10,7 +10,7 @@ const Experience = () => {
 
             <div className="container experience__container">
                 <div className="experience__frontend">
-                    <h3>Frontend Development</h3>
+                    <h3>Technologies</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
                             <BsFillPatchCheckFill className='experience__details-icon'></BsFillPatchCheckFill>
@@ -54,11 +54,32 @@ const Experience = () => {
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
+                        <article className='experience__details'>
+                            <BsFillPatchCheckFill className='experience__details-icon'></BsFillPatchCheckFill>
+                            <div>
+                                <h4>Java</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsFillPatchCheckFill className='experience__details-icon'></BsFillPatchCheckFill>
+                            <div>
+                                <h4>Python</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsFillPatchCheckFill className='experience__details-icon'></BsFillPatchCheckFill>
+                            <div>
+                                <h4>R</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 {/* ====== End of Frontend ======= */}
 
-                <div className="experience__backend">
+                {/* <div className="experience__backend">
                 <h3>Backend Development</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
@@ -97,7 +118,7 @@ const Experience = () => {
                             </div>
                         </article>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );
