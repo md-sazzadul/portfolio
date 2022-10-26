@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <section id='experience'>
             <h5>What Skills I have</h5>
-            <h2>My Experience</h2>
+            <h2>Skills</h2>
 
             <div className="container experience__container">
                 <div className="experience__frontend">
@@ -50,7 +50,7 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsFillPatchCheckFill className='experience__details-icon'></BsFillPatchCheckFill>
                             <div>
-                                <h4>React</h4>
+                                <h4>ReactJS</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>

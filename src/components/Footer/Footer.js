@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import {FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa';
+import {FaLinkedin, FaGithub, FaResearchgate} from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -9,8 +9,8 @@ const Footer = () => {
 
             <ul className='permalinks'>
                 <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                {/* <li><a href="#about">About</a></li> */}
+                <li><a href="#experience">Skills</a></li>
                 {/* <li><a href="#services">Services</a></li> */}
                 <li><a href="#portfolio">Portfolio</a></li>
                 {/* <li><a href="#testimonials">Testimonials</a></li> */}
@@ -18,9 +18,9 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://www.linkedin.com/in/md-sazzadul-islam-243a34253/" target='_blank'><FaLinkedin></FaLinkedin></a>
+                <a href="https://www.linkedin.com/in/md-sazzadul-islam15/" target='_blank'><FaLinkedin></FaLinkedin></a>
                 <a href="https://github.com/md-sazzadul" target='_blank'><FaGithub></FaGithub></a>
-                <a href="https://twitter.com" target='_blank'><FaTwitter></FaTwitter></a>
+                <a href="https://www.researchgate.net/profile/Md-Sazzadul-Islam-3" target='_blank'><FaResearchgate></FaResearchgate></a>
             </div>
 
             <div className="footer__copyright">

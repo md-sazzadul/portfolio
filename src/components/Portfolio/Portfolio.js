@@ -11,8 +11,8 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'React SPA With Simple E-commerce (Ongoing)',
-        github: 'https://github.com',
+        title: 'React SPA With Simple E-commerce',
+        github: 'https://github.com/md-sazzadul/ema-john-simple',
         demo: 'https://ema-john-sazzad15.netlify.app/'
     },
     {
@@ -46,7 +46,7 @@ const data = [
     {
         id: 6,
         image: IMG6,
-        title: 'Simple E-commerce Landing Page Using Bootstrap',
+        title: 'Simple E-commerce Landing Page',
         github: 'https://github.com/md-sazzadul/panda-commerce-bootstrap',
         demo: 'https://panda-commerce-sazzad15.netlify.app/#'
     }
