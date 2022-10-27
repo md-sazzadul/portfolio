@@ -2,8 +2,8 @@ import React from 'react';
 import './Portfolio.css';
 import IMG1 from '../../assets/ema-john.PNG';
 import IMG2 from '../../assets/crud-reactjs.PNG';
-import IMG3 from '../../assets/influencer-gear.PNG';
-import IMG4 from '../../assets/leader-board.PNG';
+import IMG3 from '../../assets/to-do-list.PNG';
+import IMG4 from '../../assets/influencer-gear.PNG';
 import IMG5 from '../../assets/cash-book.PNG';
 import IMG6 from '../../assets/panda-commerce.PNG';
 
@@ -26,15 +26,15 @@ const data = [
         id: 3,
         image: IMG3,
         title: 'Influencer Gear',
-        github: 'https://github.com/md-sazzadul/influencer-gear',
-        demo: 'https://influencer-gear-sazzad15.netlify.app/'
+        github: 'https://github.com/md-sazzadul/to-do-list',
+        demo: 'https://to-do-list-sazzad15.netlify.app/'
     },
     {
         id: 4,
         image: IMG4,
-        title: 'Leader Board CSS3',
-        github: 'https://github.com/md-sazzadul/leader-board-css3',
-        demo: 'https://leader-board-sazzad15.netlify.app/'
+        title: 'Influencer Gear',
+        github: 'https://github.com/md-sazzadul/influencer-gear',
+        demo: 'https://influencer-gear-sazzad15.netlify.app/'
     },
     {
         id: 5,
