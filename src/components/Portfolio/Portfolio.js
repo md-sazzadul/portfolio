@@ -25,7 +25,7 @@ const data = [
     {
         id: 3,
         image: IMG3,
-        title: 'Influencer Gear',
+        title: 'To Do List',
         github: 'https://github.com/md-sazzadul/to-do-list',
         demo: 'https://to-do-list-sazzad15.netlify.app/'
     },
