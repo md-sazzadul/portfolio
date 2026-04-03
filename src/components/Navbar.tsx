@@ -1,4 +1,8 @@
+import { useTheme } from '../hooks/useTheme';
+
 const Navbar = () => {
+  const { toggleTheme } = useTheme();
+
   return (
     <nav className="fixed top-0 w-full bg-slate-900 border-b border-slate-800 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between">
@@ -10,6 +14,8 @@ const Navbar = () => {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
+
+        <button onClick={toggleTheme}>Toggle</button>
       </div>
     </nav>
   );
