@@ -1,8 +1,10 @@
+import MainLayout from "../layouts/MainLayout";
+
 const Home = () => {
   return (
-    <main>
+    <MainLayout>
       <h1 className="text-3xl">Portfolio</h1>
-    </main>
+    </MainLayout>
   );
 };
 
